@@ -10,6 +10,6 @@ doc = Nokogiri::HTML(html)
 # puts temp 
 temp = doc.css(".inlineMobileLeft-2Yo002.imageTextBlockGrid3-2XAK6G")
 
-# puts temp 
+puts temp 
 
 temp.each {|t| puts t.attr.strip } 
