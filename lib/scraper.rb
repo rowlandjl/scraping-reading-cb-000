@@ -12,4 +12,4 @@ temp = doc.css(".inlineMobileLeft-2Yo002.imageTextBlockGrid3-2XAK6G")
 
 # puts temp 
 
-temp.each {|t| puts t} 
+temp.each {|t| puts t.text } 
