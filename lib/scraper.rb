@@ -8,6 +8,6 @@ doc = Nokogiri::HTML(html)
 # binding.pry 
 # temp = doc.css(".headline-26OIBN")
 # puts temp 
-temp = doc.css(".inlineMobileLeft-2Yo002.imageTextBlockGrif3-2XAK6G")
+temp = doc.css(".inlineMobileLeft-2Yo002 .imageTextBlockGrif3-2XAK6G")
 
 temp.each {|t| puts t.text.strip} 
