@@ -4,7 +4,7 @@ require 'pry'
 
 html = open("https://flatironschool.com/")
 doc = Nokogiri::HTML(html)
-puts doc 
+# puts doc 
 # binding.pry 
 temp = doc.css(".headline-26OIBN")
 
